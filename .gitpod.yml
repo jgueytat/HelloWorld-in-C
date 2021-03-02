@@ -1,2 +1,6 @@
 image:
-  file: .devcontainer/Dockerfile
+  file: .gitpod/Dockerfile
+
+vscode:
+  extensions:
+    - webfreak.debug@0.25.0:F9uLpAOde6r0l7rgMC8LTQ==
