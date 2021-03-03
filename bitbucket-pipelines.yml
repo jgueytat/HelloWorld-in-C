@@ -2,17 +2,14 @@ image: gitpod/workspace-full
 
 pipelines:
   default:
-    - parallel:
-        - step:
-            name: Build
-            script:
-              - cmake --config Debug --target HelloWorld -S . -B build
-              - cmake --build build -- -j
-            artifacts:
-              - build/HelloWorld
-        - step:
-            name : Run
-            script:
-              - ls -R .
-              - ls build/HelloWorld
-              - build/HelloWorld
+    - step:
+        name: Build
+        script:
+          - cmake --config Debug --target HelloWorld -S . -B build
+          - cmake --build build -- -j
+        artifacts:
+          - build/HelloWorld
+    - step:
+        name : Run
+        script:
+          - build/HelloWorld
