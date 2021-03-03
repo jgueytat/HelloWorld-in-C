@@ -6,4 +6,5 @@ pipelines:
         - step:
             name: Build and Run
             script:
-              - cmake 
+              - pwd
+              - cmake --build /workspace/helloworld_in_c/build --config Debug --target HelloWorld -- -j 18
