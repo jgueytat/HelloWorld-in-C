@@ -7,5 +7,5 @@ pipelines:
             name: Build and Run
             script:
               - cmake --config Debug --target HelloWorld -S . -B build
-              - cmake --build build -- -j 18
+              - cmake --build build -- -j
               - ./build/HelloWorld
