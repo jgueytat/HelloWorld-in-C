@@ -1,0 +1,17 @@
+# Template C++ Application
+
+# This template allows you to validate your C++ application.
+# The workflow allows running tests and code linting on the default branch.
+
+
+image: gitpod/workspace-full
+
+
+pipelines:
+  default:
+    - parallel:
+        - step:
+            name: Build and Run
+            script:
+              - cmake 
+
