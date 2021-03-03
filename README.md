@@ -1,1 +1,1 @@
-# HelloWorld in C with Gitpod
+# HelloWorld in C / C++ with Gitpod
