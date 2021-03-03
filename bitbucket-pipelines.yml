@@ -8,3 +8,4 @@ pipelines:
             script:
               - cmake --config Debug --target HelloWorld -S . -B build
               - cmake --build build -- -j 18
+              - ./build/HelloWorld
