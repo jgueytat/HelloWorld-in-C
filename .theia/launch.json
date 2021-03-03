@@ -2,10 +2,10 @@
   "version": "0.2.0",
   "configurations": [
       {
-          "type": "Launch HelloWorld (Theia)",
-          "request": "launch",
-          "name": "HelloWorld",
-          "program": "${workspaceFolder}/build/HelloWorld"
+        "name": "Launch HelloWorld (Theia)",  
+        "type": "gdb",
+        "request": "launch",
+        "program": "${workspaceFolder}/build/HelloWorld"
       }
   ]
 }
