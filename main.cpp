@@ -9,7 +9,7 @@ void printInt(int a)
 
 int main()
 {
-    int i, j;
+    int i, j = 0;
     for (i = 10; i < 20; i++) {
         j += 5;
         printInt(j);
