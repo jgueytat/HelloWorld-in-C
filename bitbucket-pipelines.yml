@@ -6,6 +6,5 @@ pipelines:
         - step:
             name: Build and Run
             script:
-              - echo $PWD
-              - ls
-              - cmake --build $PWD/build --config Debug --target HelloWorld -- -j 18
+              - cmake --config Debug --target HelloWorld -S . -B build
+              - cmake --build build -- -j 18
