@@ -8,6 +8,8 @@ pipelines:
             script:
               - cmake --config Debug --target HelloWorld -S . -B build
               - cmake --build build -- -j
+            artifacts:
+              - build/HelloWorld
         - step:
             name : Run
             script:
