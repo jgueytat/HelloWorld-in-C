@@ -4,8 +4,11 @@ pipelines:
   default:
     - parallel:
         - step:
-            name: Build and Run
+            name: Build
             script:
               - cmake --config Debug --target HelloWorld -S . -B build
               - cmake --build build -- -j
+        - step:
+            name : Run
+            script:
               - ./build/HelloWorld
