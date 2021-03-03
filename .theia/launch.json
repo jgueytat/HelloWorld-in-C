@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "gdb",
+            "request": "launch",
+            "name": "HelloWorld",
+            "program": "${workspaceFolder}/build/HelloWorld"
+        }
+    ]
+}
