@@ -13,4 +13,6 @@ pipelines:
         - step:
             name : Run
             script:
-              - ./build/HelloWorld
+              - ls -R .
+              - ls build/HelloWorld
+              - build/HelloWorld
