@@ -2,9 +2,9 @@
   "version": "0.2.0",
   "configurations": [
       {
-          "name": "HelloWorld (Gitpod)",
-          "request": "launch",
+          "name": "HelloWorld (Web)",
           "type": "gdb",
+          "request": "launch",
           "program": "${workspaceFolder}/build/HelloWorld"
       }
   ]

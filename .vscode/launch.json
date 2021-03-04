@@ -2,7 +2,13 @@
     "version": "0.2.0",
     "configurations": [        
         {
-            "name": "HelloWorld (VSCode Remote)",
+            "name": "HelloWorld (Web)",
+            "type": "gdb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/HelloWorld"
+        },
+        {
+            "name": "HelloWorld (Windows with container)",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/HelloWorld",
@@ -21,7 +27,7 @@
             ]
         },
         {
-            "name": "HelloWorld (VSCode Windows)",
+            "name": "HelloWorld (Windows locally)",
             "type": "cppvsdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/Debug/HelloWorld.exe",
