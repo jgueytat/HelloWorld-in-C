@@ -2,7 +2,7 @@
   "version": "0.2.0",
   "configurations": [
       {
-          "type": "Launch HelloWorld (Theia)",
+          "type": "HelloWorld (Gitpod)",
           "request": "launch",
           "name": "HelloWorld",
           "program": "${workspaceFolder}/build/HelloWorld"

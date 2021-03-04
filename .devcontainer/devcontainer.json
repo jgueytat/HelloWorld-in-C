@@ -1,0 +1,10 @@
+{
+	"build": {
+		"dockerfile": "../.gitpod.Dockerfile"
+	},
+	"runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined"],
+	"extensions": [
+        "ms-vscode.cmake-tools",
+        "ms-vscode.cpptools"
+	]
+}
