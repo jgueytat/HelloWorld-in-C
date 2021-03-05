@@ -1,4 +1,4 @@
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://bitbucket.org/thalesaleniaspace/helloworld_in_c/src/master/)
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://bitbucket.org/jgueytat/helloworld_in_c/src/master/)
 
 # HelloWorld in C / C++ with VSCode and Gitpod
 
