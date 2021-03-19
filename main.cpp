@@ -1,18 +1,8 @@
 #include <iostream>
 
-using namespace std;
-
-void printInt(int a)
-{
-    cout << "value: " << a << endl;
-}
-
 int main()
 {
-    int i, j = 0;
-    for (i = 10; i < 20; i++) {
-        j += 5;
-        printInt(j);
-    }
+    std::cout << "Hello" << std::endl;
+    std::cout << " World !" << std::endl;
     return 0;
 }

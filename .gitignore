@@ -1,2 +1,4 @@
+# CMake build directory
 build
+# Clang cache diretory
 .cache
