@@ -2,7 +2,7 @@ image: gitpod/workspace-full
 vscode:
   extensions:
     # CMake tool
-    - ms-vscode.cmake-tools@1.6.0
+    - ms-vscode.cmake-tools
     # GDB Debug
     - webfreak.debug
     # C/C++ Code completion
