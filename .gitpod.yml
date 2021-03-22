@@ -3,7 +3,5 @@ vscode:
   extensions:
     # CMake tool
     - ms-vscode.cmake-tools
-    # GDB Debug
-    - webfreak.debug
     # C/C++ Code completion
     - llvm-vs-code-extensions.vscode-clangd
