@@ -1,10 +1,10 @@
+#include <cstdio>
 #include <iostream>
 
 int main()
 {
-    do {
-        std::cout << "Press a key to continue...";
-    } while (std::cin.get() != '\n');
+    std::cout << "Press enter to continue...";
+    std::getchar();
 
     std::cout << "Hello Foo !" << std::endl;
     std::cout << "Hello Bar !" << std::endl;
