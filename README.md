@@ -24,4 +24,4 @@
 
 * [Avoiding to have to refresh](https://github.com/gitpod-io/gitpod/issues/3470)
 * [Missing breakpoints](https://github.com/WebFreak001/code-debug/issues/260)
-* [User input](https://github.com/WebFreak001/code-debug/issues/262)
+* [Can not get user input](https://github.com/WebFreak001/code-debug/issues/262)
