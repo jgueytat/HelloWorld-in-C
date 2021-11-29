@@ -6,7 +6,7 @@
             "request": "launch",
             "name": "Hello in C/C++",
             "target": "./build/hello",
-            "cwd": "${cwd}",
+            "cwd": "${workspaceRoot}",
             "valuesFormatting": "parseText"
         }
     ]

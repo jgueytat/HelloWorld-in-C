@@ -4,5 +4,6 @@ image: gitpod/workspace-full
 vscode:
   extensions:
     - ms-vscode.cmake-tools
+    - twxs.cmake
     - llvm-vs-code-extensions.vscode-clangd
     - webfreak.debug
