@@ -5,9 +5,12 @@
 	// List of extensions which should be recommended for users of this workspace.
 	"recommendations": [
 		"ms-vscode.cmake-tools",
+		"twxs.cmake",
 		"llvm-vs-code-extensions.vscode-clangd",
 		"webfreak.debug"
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
-	"unwantedRecommendations": []
+	"unwantedRecommendations": [
+		"eclipse-cdt.cdt-gdb-vscode"
+	]
 }
