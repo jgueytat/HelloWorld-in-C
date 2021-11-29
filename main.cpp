@@ -3,7 +3,7 @@
 
 int main()
 {
-    std::cout << "Press enter...";
+    std::cout << "Press enter..." << std::endl;
     std::getchar();
 
     std::cout << "Hello Foo !" << std::endl;
